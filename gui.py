@@ -38,10 +38,10 @@ while True:
         case "Complete":
             todo_to_complete = values["todos"][0]
             todos = functions.get_todos()
-            todo_index = todos.index(todo_to_complete)
-            todos.pop(todo_index)
+            todos.remove(todo_to_complete)
             functions.write_todos(todos)
             window['todos'].update(values=todos)
+            window['todo'].update(value='')
         case 'todos':
             window['todo'].update(value=values['todos'][0])
         case "Exit":
