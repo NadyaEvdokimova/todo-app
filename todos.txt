@@ -2,3 +2,6 @@ Buy plants
 Clean the trash
 Buy grocery
 Buy milk
+Add new feature
+Buy milk and honey
+Do laundry
